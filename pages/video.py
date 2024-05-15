@@ -1,6 +1,8 @@
 import streamlit as st
 import cv2
 import tempfile
+from st_pages import hide_pages
+hide_pages('video')
 
 st.title('Drone Detection System')
 
